@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gradient Background</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body id="gradient">
+	<h1 >Background Generator</h1>
+	<h2>Choose Your Gradient</h2>
+	<form>
+		<label for="color1">Color 1</label>
+		<input type="color" class="color" id="color1" value="#00FFFF">
+		<label for="color2">Color 2</label>
+		<input type="color" class="color" id="color2" value="#FFAACC">
+		<select id="gradientdirection">
+			 <option value="to right" disabled selected="true">Select Gradient Direction</option>
+			 <option value="to right">to right (default)</option>
+			 <option value="to left">to left</option>
+			 <option value="radial">radial</option>
+		</select>
+	</form>
+	<button id="randomize">Generate Random Gradient</button>
+	<h2>Current CSS Background</h2>
+	<h3></h3>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
